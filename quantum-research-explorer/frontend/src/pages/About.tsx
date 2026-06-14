@@ -1,5 +1,5 @@
 import React from 'react';
-import { Sparkles, Brain, Cpu, BookOpen, Layers } from 'lucide-react';
+import { Brain, Cpu, BookOpen, Layers } from 'lucide-react';
 
 export const About: React.FC = () => {
   return (
