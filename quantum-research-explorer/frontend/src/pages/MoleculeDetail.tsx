@@ -1,7 +1,7 @@
 import React from 'react';
 import { useApp } from '../context/AppContext';
 import { SimulationPanel } from '../components/SimulationPanel';
-import { ArrowLeft, Beaker, FileText, Activity } from 'lucide-react';
+import { ArrowLeft, FileText} from 'lucide-react';
 
 export const MoleculeDetail: React.FC = () => {
   const { molecules, selectedMoleculeId, setPage } = useApp();
