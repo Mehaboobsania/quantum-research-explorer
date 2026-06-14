@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { Molecule, SimulationResult } from '../types';
-import { Play, Terminal, RefreshCw, Cpu, Award } from 'lucide-react';
+import { Play, Terminal, RefreshCw, Cpu} from 'lucide-react';
 
 interface SimulationPanelProps {
   molecule: Molecule;
